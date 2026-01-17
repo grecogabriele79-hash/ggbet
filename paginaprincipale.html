@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="indexprincipale.css">
+    <script src="calcologoal.js" defer></script>
+    
+</head>
+
+<body>  
+
+    <header class="header1">
+        <h1>GGBET</h1>
+    </header>
+
+    <h3>Calcolo statistico dei goal</h3>
+
+    <form id="calcoloGoal">
+
+    <label for="squadracasa">Squadra in Casa:</label>
+    <input type="text" id="squadracasa" required><br><br>
+
+    <label for="squadratras">Squadra in Trasferta:</label>
+    <input type="text" id="squadratras" required><br><br>
+
+    <section class="sezione-articoli">
+        <article>
+            <label>Partite giocate Casa:</label>
+            <input type="number" id="partiteGiocatecasa" required><br><br>
+
+            <label>Goal segnati Casa:</label>
+            <input type="number" id="goalSegnaticasa" required><br><br>
+
+            <label>Goal subiti Casa:</label>
+            <input type="number" id="goalSubiticasa" required><br><br>
+        </article>
+
+        <article>
+            <label>Partite giocate Trasferta:</label>
+            <input type="number" id="partiteGiocatetras" required><br><br>
+
+            <label>Goal segnati Trasferta:</label>
+            <input type="number" id="goalSegnatitras" required><br><br>
+
+            <label>Goal subiti Trasferta:</label>
+            <input type="number" id="goalSubititras" required><br><br>
+        </article>
+    </section>
+
+    <input type="submit" value="Calcola">
+</form>
+
+<div id="risultato"></div>
+  
+</body>
+
+</html>
